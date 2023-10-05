@@ -7,10 +7,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-config-custom": "*",
-    "prettier": "^2.7.1",
-    "prettier-plugin-svelte": "^2.7.0",
+    "@fireteams.dev/xo-config": "0.0.0",
     "turbo": "latest"
   },
   "packageManager": "npm@9.6.7",

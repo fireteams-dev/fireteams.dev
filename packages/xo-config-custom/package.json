@@ -1,0 +1,14 @@
+{
+  "name": "@fireteams.dev/xo-config",
+  "version": "0.0.0",
+  "main": "src/xo-config.cjs",
+  "license": "MIT",
+  "dependencies": {
+    "@windyroad/xo-config": "^2.0.0",
+    "eslint-config-turbo": "^1.10.14",
+    "eslint-plugin-json": "^2.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,48 @@
+{
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "json.schemaDownload.enable": true,
+    "xo.enable": true,
+    "xo.format.enable": true,
+    "xo.statusBar": "Relevant",
+    "xo.validate": [
+        "javascript",
+        "typescript",
+        "svelte",
+        "json"
+    ],
+    "npm.fetchOnlinePackageInfo": true,
+    "npm.exclude": [
+        "**/dist"
+    ],
+    "npm.scriptExplorerExclude": [
+        "postinstall",
+        "start"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "samverschueren.linter-xo",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "samverschueren.linter-xo",
+        "editor.formatOnSave": true
+    },
+    "[svelte]": {
+        "editor.defaultFormatter": "samverschueren.linter-xo",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "samverschueren.linter-xo",
+        "editor.formatOnSave": true
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.formatOnSave": true
+    },
+    "typescript.format.semicolons": "insert",
+    "javascript.preferences.importModuleSpecifierEnding": "js",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.importModuleSpecifierEnding": "js",
+    "svelte.plugin.svelte.defaultScriptLanguage": "ts"
+}
