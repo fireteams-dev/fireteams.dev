@@ -15,6 +15,6 @@ function drawerClose(): void {
 		<li><a href="/videos" on:click={drawerClose}>Videos</a></li>
 		<li><a href="/books" on:click={drawerClose}>Books</a></li>
 		<!-- <li><a href="/blog" on:click={drawerClose}>Blog</a></li> -->
-		<!-- <li><a href="/contact" on:click={drawerClose}>Contact</a></li> -->
+		<li><a href="/contact" on:click={drawerClose}>Contact</a></li>
 	</ul>
 </nav>

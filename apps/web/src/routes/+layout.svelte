@@ -8,7 +8,10 @@
     import Navigation from '$lib/navigation.svelte';
     import { initializeStores, Drawer, getDrawerStore } from '@skeletonlabs/skeleton';
     import { page } from '$app/stores';
-
+	// Font Awesome
+	import '@fortawesome/fontawesome-free/css/fontawesome.css';
+	import '@fortawesome/fontawesome-free/css/brands.css';
+	import '@fortawesome/fontawesome-free/css/solid.css';
 	
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 
